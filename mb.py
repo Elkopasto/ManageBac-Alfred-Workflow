@@ -45,10 +45,10 @@ def fetch_cas(cards):
         description = description.text if description else "..."
         status = card.find(attrs={'data-title': True})["data-title"]
 
-        res = fetch_json(title, description, mb_url + link + "/reflections", icon={"path": './resources/icons/' + status + '.png'},
+        res = fetch_json(title, description, mb_url + link[9:] + "/reflections", icon={"path": './resources/icons/' + status + '.png'},
                          mods={"cmd": {
                             "valid": True,
-                            "arg": mb_url + link,
+                            "arg": mb_url + link[9:],
                             "subtitle": "Go to summary ➡️"
                         }})
 
@@ -94,7 +94,7 @@ def fetch_upcoming(cards):
         month = card.find("div", class_="month").text
         day = card.find("div", class_="day").text
         
-        res = fetch_json(title, month + " " + day, mb_url + link)
+        res = fetch_json(title, month + " " + day, mb_url + link[9:])
 
         items.append(res)
 

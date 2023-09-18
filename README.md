@@ -1,5 +1,10 @@
 <h1>Managebac-Alfred-Workflow</h1>
-<p>An Alfred workflow to quickly access ManageBac platform</p>
+<p>An Alfred workflow to quickly access ManageBac platform.</p>
+<blockquote cite="https://elkopasto.dev">
+I hate ManageBac's UI, so I will do everything in my power to avoid using it as often
+</blockquote>
+<br>
+
 <img src="./README/preview.gif">
 
 
@@ -26,6 +31,13 @@
 <p>There you'll find a <code>cookie</code> variable. Copy it's value and pass it to the <code>cookie</code> string in Alfred.
 </p>
 <img src="./README/cookie_value.png">
-<p>After doing so you can proceed to input your school name into <code>school_domain</code> field</p>
+<p>After doing so you can proceed to input your school name into <code>school_domain</code> field:</p>
 <img src="./README/school_domain.png">
+<p>Theese two field are required to fill</p>
+<img src="./README/workflow_variables.png">
+
+<h3>Quick gif (pronounced /<span style="border-bottom:1px dotted"><span title="/ɡ/: 'g' in 'guy'">ɡ</span><span title="/ɪ/: 'i' in 'kit'">ɪ</span><span title="'f' in 'find'">f</span></span>/) tutorial:</h3>
 <img src="./README/tutrorial.gif">
+
+<h2>Download</h2>
+<p>Go to releases page</p>
