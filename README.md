@@ -28,4 +28,10 @@
 <img src="./README/cookie_value.png">
 <p>After doing so you can proceed to input your school name into <code>school_domain</code> field</p>
 <img src="./README/school_domain.png">
+<p>Theese two field are required to fill</p>
+<img src="./README/workflow_variables.png">
+<h3>Quick gif (pronounced /<span style="border-bottom:1px dotted"><span title="/ɡ/: 'g' in 'guy'">ɡ</span><span title="/ɪ/: 'i' in 'kit'">ɪ</span><span title="'f' in 'find'">f</span></span>/) tutorial:</h3>
 <img src="./README/tutrorial.gif">
+
+<h2>Download</h2>
+<p>Go to releases page</p>
